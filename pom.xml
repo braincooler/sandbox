@@ -70,7 +70,7 @@
 				<configuration>
 					<skipTests>false</skipTests>
 					<testFailureIgnore>true</testFailureIgnore>
-					<forkCount>0</forkCount>
+					<forkMode>once</forkMode>
 				</configuration>
 			</plugin>
 		</plugins>
