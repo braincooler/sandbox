@@ -11,12 +11,8 @@ import javax.annotation.PostConstruct;
 public class Config {
     private static final Logger log = LoggerFactory.getLogger(Config.class);
 
-    @Value("§{gw.user}")
-    private final String gwUser;
-
-    public Config(String gwUser) {
-        this.gwUser = gwUser;
-    }
+    @Value("${gw.user}")
+    private String gwUser;
 
     @PostConstruct
     public void init(){
