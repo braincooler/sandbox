@@ -11,7 +11,7 @@ public class MainControllerImpl implements MainController {
 
     @GetMapping
     public ResponseEntity<?> getTest(){
-        return ResponseEntity.ok("def");
+        return ResponseEntity.ok("def master");
     }
 
     @Override
